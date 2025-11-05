@@ -18,7 +18,7 @@ const projects = [
     title: "Portfolio Website",
     description: "Personal portfolio to showcase my work and skills.",
     image: PortfolioImg,
-    link: "https://your-portfolio-link.com",
+    link: "https://mairaju-portfolio.netlify.app",
   },
   {
     title: "Organic Website",

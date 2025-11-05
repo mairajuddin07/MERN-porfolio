@@ -45,6 +45,9 @@ export default function About() {
               Bootstrap and React-Bootstrap
             </div>
             <div className="bg-[#1f2937] text-center p-4 rounded-xl shadow-md hover:bg-green-400 hover:text-black transition">
+              Figma
+            </div>
+            <div className="bg-[#1f2937] text-center p-4 rounded-xl shadow-md hover:bg-green-400 hover:text-black transition">
               JavaScript
             </div>
             <div className="bg-[#1f2937] text-center p-4 rounded-xl shadow-md hover:bg-green-400 hover:text-black transition">
