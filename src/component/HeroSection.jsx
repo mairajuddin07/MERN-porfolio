@@ -26,8 +26,8 @@ export default function HeroSection() {
 
           {/* Download CV Button */}
           <a
-            href="/Mairaj-CV.pdf"
-            download
+            href="/cv.pdf"
+            download ="cv.pdf"
             className="inline-block bg-green-500 text-black font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-green-400 transition duration-300"
           >
             DOWNLOAD CV

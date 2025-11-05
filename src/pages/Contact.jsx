@@ -3,6 +3,7 @@ import emailjs from "emailjs-com";
 import { Fade } from "react-awesome-reveal";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -120,28 +121,47 @@ export default function Contact() {
                 </p>
               </div>
 
-              {/* Social Links */}
-              <div className="flex space-x-4 mt-4">
+              <div className="flex space-x-6 mt-4">
+                {/* GitHub */}
                 <a
                   href="https://github.com/mairajuddin07"
                   target="_blank"
-                  className="bg-[#1f2937] hover:bg-green-500 p-3 rounded-full transition"
+                  className="group flex flex-col items-center"
                 >
-                  🐱
+                  <div className="bg-[#1f2937] group-hover:bg-green-500 p-3 rounded-full transition duration-300">
+                    <FaGithub size={22} />
+                  </div>
+                  <span className="text-gray-400 text-sm mt-1 opacity-0 group-hover:opacity-100 transition">
+                    GitHub
+                  </span>
                 </a>
+
+                {/* LinkedIn */}
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://linkedin.com/mairajuddin"
                   target="_blank"
-                  className="bg-[#1f2937] hover:bg-green-500 p-3 rounded-full transition"
+                  className="group flex flex-col items-center"
                 >
-                  🔗
+                  <div className="bg-[#1f2937] group-hover:bg-green-500 p-3 rounded-full transition duration-300">
+                    <FaLinkedin size={22} />
+                  </div>
+                  <span className="text-gray-400 text-sm mt-1 opacity-0 group-hover:opacity-100 transition">
+                    LinkedIn
+                  </span>
                 </a>
+
+                {/* Twitter */}
                 <a
-                  href="https://twitter.com/yourusername"
+                  href="https://twitter.com"
                   target="_blank"
-                  className="bg-[#1f2937] hover:bg-green-500 p-3 rounded-full transition"
+                  className="group flex flex-col items-center"
                 >
-                  🐦
+                  <div className="bg-[#1f2937] group-hover:bg-green-500 p-3 rounded-full transition duration-300">
+                    <FaTwitter size={22} />
+                  </div>
+                  <span className="text-gray-400 text-sm mt-1 opacity-0 group-hover:opacity-100 transition">
+                    Twitter
+                  </span>
                 </a>
               </div>
             </div>
