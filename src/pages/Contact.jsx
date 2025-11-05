@@ -113,7 +113,7 @@ export default function Contact() {
               {/* Contact Details */}
               <div className="space-y-3">
                 <p className="text-gray-300">
-                  📧 Email: <span className="text-green-400">your.email@example.com</span>
+                  📧 Email: <span className="text-green-400">mairaju587@gmail.com</span>
                 </p>
                 <p className="text-gray-300">
                   📍 Location: <span className="text-green-400">Karachi, Pakistan</span>
