@@ -1,34 +1,32 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
+import EcomerceImg from "../assets/ecomerce-landingpage.png";
+import PortfolioImg from "../assets/portfolio-image.png";
+import OrganicImg from "../assets/organic-website.png";
+
 
 
 export default function Projects() {
-  const projects = [
-    {
-      title: "E-Commerce Website",
-      description: "A complete online store built with React, TailwindCSS & Node.js.",
-      image: "/public/ecomerce-landingpage.png", 
-      link: "https://trends-store.vercel.app/",
-    },
-    {
-      title: "Portfolio Website",
-      description: "Personal portfolio to showcase my work and skills.",
-      image: "../../public/portfolio-image.png",
-      link: "https://your-portfolio-link.com",
-    },
-    // {
-    //   title: "Task Manager App",
-    //   description: "A MERN stack app to manage tasks with authentication.",
-    //   image: "/projects/taskmanager.png",
-    //   link: "https://your-taskmanager-demo.com",
-    // },
-    {
-      title: "Organic Website",
-      description: "A responsive marketing landing page for a organic product.",
-      image: "/public/organic-website.png",
-      link: "https://organic-website-livid.vercel.app/index.html",
-    },
-  ];
+const projects = [
+  {
+    title: "E-Commerce Website",
+    description: "A complete online store built with React, TailwindCSS & Node.js.",
+    image: EcomerceImg, 
+    link: "https://trends-store.vercel.app/",
+  },
+  {
+    title: "Portfolio Website",
+    description: "Personal portfolio to showcase my work and skills.",
+    image: PortfolioImg,
+    link: "https://your-portfolio-link.com",
+  },
+  {
+    title: "Organic Website",
+    description: "A responsive marketing landing page for an organic product.",
+    image: OrganicImg,
+    link: "https://organic-website-livid.vercel.app/index.html",
+  },
+];
 
   return (
     <Fade direction="left">
