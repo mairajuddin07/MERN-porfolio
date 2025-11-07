@@ -3,7 +3,8 @@ import { Fade } from "react-awesome-reveal";
 import EcomerceImg from "../assets/ecomerce-landingpage.png";
 import PortfolioImg from "../assets/portfolio-image.png";
 import OrganicImg from "../assets/organic-website.png";
-
+import blinkitImg from "../assets/blinkit-clone.png"
+import facebookImg from "../assets/facebook-clone.png"
 
 
 export default function Projects() {
@@ -25,6 +26,18 @@ const projects = [
     description: "A responsive marketing landing page for an organic product.",
     image: OrganicImg,
     link: "https://organic-website-livid.vercel.app/index.html",
+  },
+  {
+    title: "Facebook clone",
+    description: "Using html css to create Facebook Clone website",
+    image: facebookImg,
+    link: "https://fcbook-clone.netlify.app/",
+  },
+  {
+    title: "Blinkit clone",
+    description: "Using html css to create Blinkit Clone website",
+    image: blinkitImg,
+    link: "https://blinkit-clon.netlify.app/",
   },
 ];
 
