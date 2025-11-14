@@ -7,31 +7,31 @@ export default function Services() {
       title: "Web Development",
       description:
         "Building modern, responsive websites and web applications using React, TailwindCSS, and Node.js.",
-      icon: "🌐",
+      
     },
     {
       title: "UI/UX Design",
       description:
         "Creating clean and user-friendly interfaces with a focus on seamless user experience.",
-      icon: "🎨",
+      
     },
     {
       title: "Backend Development",
       description:
         "Developing robust and scalable APIs with Node.js, Express, and MongoDB.",
-      icon: "⚙️",
+      
     },
     {
       title: "E-Commerce Solutions",
       description:
         "Custom online store setups with secure payment integration and product management.",
-      icon: "🛒",
+      
     },
     {
       title: "Maintenance & Support",
       description:
         "Ensuring your website is always updated, secure, and performing at its best.",
-      icon: "🛠️",
+      
     },
   ];
 
@@ -55,7 +55,6 @@ export default function Services() {
               key={index}
               className="bg-[#1f2937] rounded-2xl p-8 shadow-lg hover:bg-green-500 hover:text-black transition-all duration-300 transform hover:-translate-y-2"
             >
-              <div className="text-5xl mb-4">{service.icon}</div>
               <h3 className="text-2xl font-bold mb-2">{service.title}</h3>
               <p className="text-gray-300">{service.description}</p>
             </div>

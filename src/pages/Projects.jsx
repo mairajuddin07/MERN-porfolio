@@ -11,7 +11,7 @@ export default function Projects() {
 const projects = [
   {
     title: "E-Commerce Website",
-    description: "A complete online store built with React, TailwindCSS & Node.js.",
+    description: "A complete online store built with Reactjs and using TailwindCSS .",
     image: EcomerceImg, 
     link: "https://trends-store.vercel.app/",
   },
